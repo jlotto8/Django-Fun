@@ -15,8 +15,8 @@ class Post(models.Model):
         self.published_date = timezone.now()
         self.save()
     
-    def delete(self):
-        self.delete()
+    # def delete(self):
+    #     self.delete()
 
     def __str__(self):
         return self.title
